@@ -4,12 +4,15 @@ body {
 }
 
 header {
-  margin: 0 45px;
   color: #f1f1ed;
 }
 
 h2 {
   color: #e6b550;
+}
+
+h3 {
+  color: #fff;
 }
 
 a {
@@ -25,16 +28,47 @@ p {
 }
 
 .container {
-  margin: 0 45px;
+  margin: 0 45px 45px;
   max-width: 800px;
-  align-self: center;
+  align-content: center;
+}
+
+figcaption {
+  color: #90e0d6;
 }
 
 .owl-type-thumbnail {
-  width: 200px;
+  width: auto;
+  max-height: 195px;
   box-shadow: 14px 14px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   border-radius: 5px;
   border-color: #98a596;
   border-width: 3px;
   border-style: solid;
+  margin-right: 10px;
+}
+
+img {
+  width: 700px;
+  box-shadow: 14px 14px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  border-color: #98a596;
+  border-width: 3px;
+  border-style: solid;
+}
+
+footer.products {
+  color: #fff;
+  font-style: oblique;
+  margin: 30px 0;
+}
+
+footer.end-footer {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+h3.special-offer {
+  color: #f57c00;
 }
